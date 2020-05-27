@@ -27,7 +27,6 @@ cd /var/www/shtml
 sudo -u nsx /usr/local/bin/composer install
 npm install --save-dev  cross-env
 npm run dev
-
 ln -s /var/www/shtml/public/upload_photo /var/www/html/signage1/
 ln -s /var/www/shtml/public/upload_photo /var/www/html/signage2/
 ln -s /var/www/shtml/public/upload_photo /var/www/html/signage4/
